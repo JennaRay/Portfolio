@@ -200,3 +200,11 @@ h3 {
     height: auto;
     padding: 1rem;
 }
+
+#about {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin: auto;
+    width: 80%;
+    padding: 3rem;
+}
