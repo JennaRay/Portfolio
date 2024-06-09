@@ -1,0 +1,84 @@
+@media screen and (max-width: 400px) {
+
+header {
+    display: flexbox;
+    flex-direction: column;
+    padding: 1rem;
+    text-align: left;
+}
+
+header img, header h1, header h4 {
+    margin: 0px;
+}
+
+ul, main ul li, #home ul{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+}
+
+#home ul li a{
+    padding: 1rem;
+    margin: 1rem;
+}
+
+#home ul li {
+    margin: 0px;
+}
+#home h2, h3 {
+    margin-top: 5rem;
+    padding-top: 5rem;
+}
+main, div, .logoproject {
+    display: flex;
+    flex-direction: column;
+}
+
+.logoproject img {
+
+padding: 1rem;
+margin: auto;
+width: 200px;
+}
+h3, h4{
+    margin: auto;
+}
+
+#swe, #gemstone, .cards, .cards img, #about {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 1rem;
+}
+
+#gameboard, #gameboard2 {
+    width: 100vw;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+    margin-left: -2rem;
+}
+.tiles img {
+    width: 80px;
+    margin: 0px;
+    padding: 0px;
+}
+.tiles {
+    display: flex-box;
+    margin:auto;
+    padding:0px;
+    width: 100%;
+}
+
+#about, #contacth2 {
+    margin-top: 15rem;
+}
+#about img {
+    width: 100%;
+}
+
+#about h2, #about p {
+    margin: 0px;
+    padding: 5px;
+}
+}
