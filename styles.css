@@ -78,6 +78,16 @@ nav li a:hover, nav a:hover, .dropbtn:hover {
     color:#130809;
 }
 
+#portfolio-nav {
+    position:absolute;
+    top: auto;
+    margin-top:3rem;
+}
+.active {
+    background-color:#3f6c4d;
+    color:white;
+}
+
 .dropdown{
     float:left;
     overflow: hidden;
