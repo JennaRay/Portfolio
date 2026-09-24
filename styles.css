@@ -129,7 +129,17 @@ nav li a:hover, nav a:hover, .dropbtn:hover {
 }
 
 main {
+    margin-top: 10rem;
+    margin-bottom: 5rem;
+}
+
+#gdmain {
     margin-top: 25rem;
+}
+
+#sftwrmain {
+    margin-left: 10rem;
+    margin-right: 10rem;
 }
 
 footer {
@@ -364,4 +374,10 @@ h3 {
 #home {
     margin: 5rem auto;
     text-align: center;
+}
+
+/* software portfolio */
+
+.github-link img{
+    width: 1.5%
 }
